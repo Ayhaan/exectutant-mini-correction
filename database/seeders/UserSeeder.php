@@ -47,6 +47,50 @@ class UserSeeder extends Seeder
                 "created_at" => now(), 
 
             ],
+            [
+                "name" => "Makaya",
+                "prenom" => "Kevin",
+                "age" => "24",
+                "email" => "membre3@test.com",
+                "password" => Hash::make("testtest"),
+                "role_id" => 3, //user
+                "avatar_id" => 2, //femme avatar
+                "created_at" => now(), 
+
+            ],
+            [
+                "name" => "Makaya",
+                "prenom" => "Kevin",
+                "age" => "24",
+                "email" => "membre2@test.com",
+                "password" => Hash::make("testtest"),
+                "role_id" => 3, //user
+                "avatar_id" => 2, //femme avatar
+                "created_at" => now(), 
+
+            ],
+            [
+                "name" => "Makaya",
+                "prenom" => "Kevin",
+                "age" => "24",
+                "email" => "membre6@test.com",
+                "password" => Hash::make("testtest"),
+                "role_id" => 3, //user
+                "avatar_id" => 2, //femme avatar
+                "created_at" => now(), 
+
+            ],
+            [
+                "name" => "Makaya",
+                "prenom" => "Kevin",
+                "age" => "24",
+                "email" => "membre8@test.com",
+                "password" => Hash::make("testtest"),
+                "role_id" => 3, //user
+                "avatar_id" => 2, //femme avatar
+                "created_at" => now(), 
+
+            ],
         ]);
     }
 }
